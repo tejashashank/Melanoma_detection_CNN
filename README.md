@@ -27,25 +27,25 @@ You are required to build a multiclass classification model using a custom convo
 * Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make sure you resize your images to 180*180.
 * Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset
 * Model Building & training :
-** Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
-** Choose an appropriate optimiser and loss function for model training
-** Train the model for ~20 epochs
-** Write your findings after the model fit. You must check if there is any evidence of model overfit or underfit.
+ 1 Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
+ 2 Choose an appropriate optimiser and loss function for model training
+ 3 Train the model for ~20 epochs
+ 4 Write your findings after the model fit. You must check if there is any evidence of model overfit or underfit.
 * Chose an appropriate data augmentation strategy to resolve underfitting/overfitting
-** Model Building & training on the augmented data :
-** Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
-** Choose an appropriate optimiser and loss function for model training
-** Train the model for ~20 epochs
-** Write your findings after the model fit, see if the earlier issue is resolved or not?
+ 1 Model Building & training on the augmented data :
+ 2 Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model rescale images to normalize pixel values between (0,1).
+ 3 Choose an appropriate optimiser and loss function for model training
+ 4 Train the model for ~20 epochs
+ 5 Write your findings after the model fit, see if the earlier issue is resolved or not?
 * Class distribution: Examine the current class distribution in the training dataset
-** Which class has the least number of samples?
-** Which classes dominate the data in terms of the proportionate number of samples?
+ 1 Which class has the least number of samples?
+ 2 Which classes dominate the data in terms of the proportionate number of samples?
 * Handling class imbalances: Rectify class imbalances present in the training dataset with Augmentor library.
 * Model Building & training on the rectified class imbalance data :
-** Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
-** Choose an appropriate optimiser and loss function for model training
-** Train the model for ~30 epochs
-** Write your findings after the model fit, see if the issues are resolved or not?
+ 1 Create a CNN model, which can accurately detect 9 classes present in the dataset. While building the model, rescale images to normalize pixel values between (0,1).
+ 1 Choose an appropriate optimiser and loss function for model training
+ 2 Train the model for ~30 epochs
+ 3 Write your findings after the model fit, see if the issues are resolved or not?
 
 ## Technologies Used
 * pandas - 1.3.4
